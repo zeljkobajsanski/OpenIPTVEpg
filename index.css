@@ -25,3 +25,15 @@ body {
     float: left;
     margin-right: 12px;
 }
+
+.home .emisija .tip-emisije {
+    float: right;
+}
+
+.active {
+    opacity: 1;
+}
+
+.inactive {
+    opacity: 0.25;
+}
