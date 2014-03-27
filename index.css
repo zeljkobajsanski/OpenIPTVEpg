@@ -30,6 +30,27 @@ body {
     float: right;
 }
 
+.kanal .logo {
+    float: left;
+    margin-left: 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+.kanal .lista {
+    margin-top: 24px;
+}
+
+.kanal .naziv-kanala {
+    margin-left: 100px;
+}
+
+.kanal .naziv {
+    margin-left: 16px;
+}
+
 .active {
     opacity: 1;
 }

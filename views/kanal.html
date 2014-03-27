@@ -1,0 +1,13 @@
+﻿<div data-options="dxView: { name: 'kanal' }">
+    <div class="kanal" data-options="dxContent : { targetPlaceholder: 'content' } ">
+        <img data-bind="attr: { src: logo }" class="logo" />
+        <h2 data-bind="text: naziv" class="naziv-kanala" ></h2>
+        <div class="clear"></div>
+        <div data-bind="dxList: { dataSource: program }" class="lista">
+            <div data-options="dxTemplate: { name: 'item' }">
+                <span class="vreme" data-bind="text: vreme"></span>
+                <span class="naziv" data-bind="text: naziv"></span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -20,7 +20,7 @@
             ]
         });
         
-        Epg.app.router.register(":view", { view: "home" });
+        Epg.app.router.register(":view/:id", { view: "home", id: undefined });
         Epg.app.navigate();
     });
     

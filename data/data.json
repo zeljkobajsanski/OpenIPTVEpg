@@ -1,8 +1,0 @@
-﻿{
-  "timestamp" : "2014-03-27T15:44:55",
-  "program": [
-	{"id": "1", "kanal": "RTS1", "vreme": "10:00", "emisija": "Dnevnik", "tip": "info", "logo": "rts.gif", "aktivna": false},
-	{"id": "2", "kanal": "RTS2", "vreme": "10:05", "emisija": "Ozbiljna muzika", "tip": "sport", "logo": "rts.gif", "aktivna": false},
-	{"id": "3", "kanal": "Prva", "vreme": "10:07", "emisija": "U petoj brzini", "tip": "film", "logo": "prva.gif", "aktivna": true}
-  ]
-}

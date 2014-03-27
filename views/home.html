@@ -3,7 +3,7 @@
         <div data-bind="dxList: { dataSource: emisije, pullRefreshEnabled: true }">
             <div data-options="dxTemplate: { name: 'item' }" class="emisija">
                 <div data-bind="css: { inactive: !aktivna }">
-                    <img data-bind="attr: { src: 'img/' + logo }" class="logo" />
+                    <img data-bind="attr: { src: 'img/' + logo }, dxAction: '#kanal/{kanalId}'" class="logo" />
                     <img data-bind="attr: { src: 'img/' + tip + '.png' }" class="tip-emisije" />
                     <div data-bind="text: kanal" class="kanal"></div>
                     <div data-bind="text: vreme" class="vreme"></div>
