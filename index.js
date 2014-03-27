@@ -1,14 +1,14 @@
 ﻿(function() {
     "use strict";
 
-    var MyApp = window.MyApp = { };
+    var Epg = window.Epg = { };
     
     // Uncomment the line below to disable platform-specific look and feel and to use the Generic theme for all devices
-    // DevExpress.devices.current({ platform: "generic" });
+    DevExpress.devices.current({ platform: "android" });
 
     $(function() {
-        MyApp.app = new DevExpress.framework.html.HtmlApplication({
-            namespace: MyApp,
+        Epg.app = new DevExpress.framework.html.HtmlApplication({
+            namespace: Epg,
             
             navigationType: "navbar",
             navigation: [
@@ -16,17 +16,12 @@
                 title: "Home",
                 action: "#home",
                 icon: "home"
-              },
-              {
-                title: "About",
-                action: "#about",
-                icon: "info"
               }
             ]
         });
         
-        MyApp.app.router.register(":view", { view: "home" });
-        MyApp.app.navigate();
+        Epg.app.router.register(":view", { view: "home" });
+        Epg.app.navigate();
     });
     
 })();

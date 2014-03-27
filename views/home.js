@@ -1,7 +1,7 @@
-﻿MyApp.home = function (params) {
+﻿Epg.home = function (params) {
 
     var viewModel = {
-//  Put the binding properties here
+
     };
 
     return viewModel;
