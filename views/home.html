@@ -1,5 +1,12 @@
 ﻿<div data-options="dxView : { name: 'home', title: 'Home' } " >
     <div class="home"  data-options="dxContent : { targetPlaceholder: 'content' } " >
-        <div data-bind="dxList: {dataSource: emisije}"></div>
+        <div data-bind="dxList: {dataSource: emisije, pullRefreshEnabled: true}">
+            <div data-options="dxTemplate: { name: 'item' }" class="emisija">
+                <img data-bind="attr: { src: 'img/' + logo}" class="logo" />
+                <div data-bind="text: kanal" class="kanal"></div>
+                <div data-bind="text: vreme" class="vreme"></div>
+                <div data-bind="text: emisija" class="naziv-emisije"></div>
+            </div>
+        </div>
     </div>
 </div>

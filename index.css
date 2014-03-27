@@ -11,3 +11,17 @@ body {
 .home {
     
 }
+
+.home .emisija .logo{
+    float: left;
+    margin-right: 6px;
+}
+
+.home .emisija .kanal{
+    font-size: 18px;
+}
+
+.home .emisija .vreme{
+    float: left;
+    margin-right: 12px;
+}
