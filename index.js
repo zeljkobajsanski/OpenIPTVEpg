@@ -13,9 +13,9 @@
             navigationType: "navbar",
             navigation: [
               {
-                title: "Home",
+                title: "Uživo",
                 action: "#home",
-                icon: "home"
+                icon: "clock"
               }
             ]
         });
