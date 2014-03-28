@@ -8,6 +8,18 @@ body {
     padding: 0;
 }
 
+.dx-icon-serija {
+    background: url(img/clapboard.png) no-repeat;
+}
+
+.dx-icon-film {
+    background: url(img/film1.png) no-repeat;
+}
+
+.dx-icon-sport {
+    background: url(img/cup.png) no-repeat;
+}
+
 .home {
     
 }
@@ -55,6 +67,10 @@ body {
     margin-left: 16px;
 }
 
+.kanal .indicator {
+    width: 26px;
+}
+
 .active {
     opacity: 1;
 }
@@ -63,19 +79,6 @@ body {
     opacity: 0.25;
 }
 
-.indicator {
-    width: 26px;
-}
 
 
-.dx-icon-serija {
-    background: url(img/clapboard.png) no-repeat;
-}
 
-.dx-icon-film {
-    background: url(img/film1.png) no-repeat;
-}
-
-.dx-icon-sport {
-    background: url(img/cup.png) no-repeat;
-}

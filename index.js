@@ -21,11 +21,16 @@
             
             navigationType: "navbar",
             navigation: [
-              {
-                title: "Uživo",
-                action: "#home",
-                icon: "clock"
-              },
+                {
+                    title: "Uživo",
+                    action: "#home",
+                    icon: "clock"
+                },
+                {
+                    title: "Sport",
+                    action: "#sport",
+                    icon: "sport"
+                },
                 {
                     title: "Film",
                     action: "#film",
@@ -36,11 +41,7 @@
                     action: "#serija",
                     icon: "serija"
                 },
-                {
-                    title: "Sport",
-                    action: "#sport",
-                    icon: "sport"
-                }
+                
             ]
         });
         
