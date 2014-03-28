@@ -12,21 +12,21 @@ body {
     
 }
 
-.home .emisija .logo{
+.program-list-item .logo{
     float: left;
     margin-right: 6px;
 }
 
-.home .emisija .kanal{
+.program-list-item .kanal{
     font-size: 18px;
 }
 
-.home .emisija .vreme{
+.program-list-item .vreme{
     float: left;
     margin-right: 12px;
 }
 
-.home .emisija .tip-emisije {
+.program-list-item .tip-emisije {
     float: right;
 }
 
@@ -61,4 +61,21 @@ body {
 
 .inactive {
     opacity: 0.25;
+}
+
+.indicator {
+    width: 26px;
+}
+
+
+.dx-icon-serija {
+    background: url(img/clapboard.png) no-repeat;
+}
+
+.dx-icon-film {
+    background: url(img/film1.png) no-repeat;
+}
+
+.dx-icon-sport {
+    background: url(img/cup.png) no-repeat;
 }

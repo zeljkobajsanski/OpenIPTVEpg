@@ -4,5 +4,8 @@
     },
     ucitajKanal: function(id) {
         return $.getJSON('data/kanal.json', {id: id});
+    },
+    ucitajTipPrograma: function(tip) {
+        return $.getJSON('data/uzivo.json', { tip: tip });
     }
 };

@@ -7,8 +7,12 @@
         <div class="clear"></div>
         <div data-bind="dxList: { dataSource: program, activeStateEnabled: false }" class="lista">
             <div data-options="dxTemplate: { name: 'item' }" class="list-item">
-                <span class="vreme" data-bind="text: vreme"></span>
-                <span class="naziv" data-bind="text: naziv"></span>
+                <img src="img/nav-selected.png" data-bind="visible: sad" style="float: left" />
+                <p style="line-height: 28px; margin-left: 32px;">
+                    <span class="vreme" data-bind="text: vreme"></span>
+                    <span class="naziv" data-bind="text: naziv"></span>
+                    <img data-bind="attr: { src: 'img/' + tip + '.png' }" style="float: right"/>    
+                </p>
             </div>
         </div>
     </div>

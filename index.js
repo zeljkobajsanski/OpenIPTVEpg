@@ -1,7 +1,16 @@
 ﻿(function() {
     "use strict";
 
-    var Epg = window.Epg = { };
+    var Epg = window.Epg = {
+        Constants: {
+            TipoviPrograma: {
+                FILM: 1,
+                SERIJA: 2,
+                SPORT: 3,
+                OSTALO: 4
+            }
+        }
+    };
     
     // Uncomment the line below to disable platform-specific look and feel and to use the Generic theme for all devices
     DevExpress.devices.current({ platform: "android" });
@@ -16,7 +25,22 @@
                 title: "Uživo",
                 action: "#home",
                 icon: "clock"
-              }
+              },
+                {
+                    title: "Film",
+                    action: "#film",
+                    icon: "film"
+                },
+                {
+                    title: "Serija",
+                    action: "#serija",
+                    icon: "serija"
+                },
+                {
+                    title: "Sport",
+                    action: "#sport",
+                    icon: "sport"
+                }
             ]
         });
         

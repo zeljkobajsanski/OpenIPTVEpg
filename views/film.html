@@ -1,0 +1,8 @@
+﻿<div data-options="dxView: {name: 'film'}">
+    <div data-options="dxContent: {targetPlaceholder: 'content'}">
+        <h2>Filmovi</h2>
+        <div data-bind="dxList: { dataSource: program }">
+            <div data-options="dxTemplate: {name: 'item'}" data-bind="template: 'program'"></div>
+        </div>
+    </div>
+</div>
