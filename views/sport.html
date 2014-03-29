@@ -1,7 +1,7 @@
 ﻿<div data-options="dxView: {name: 'sport'}">
     <div data-options="dxContent: {targetPlaceholder: 'content'}">
         <h2>Sport</h2>
-        <div data-bind="dxList: { dataSource: program }">
+        <div data-bind="dxList: { dataSource: program, pullRefreshEnabled: true, autoPagingEnabled: false }">
             <div data-options="dxTemplate: {name: 'item'}" data-bind="template: 'program'"></div>
         </div>
     </div>
