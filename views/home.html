@@ -1,6 +1,6 @@
 ﻿<div data-options="dxView : { name: 'home', title: 'Sada na programu' } ">
     <div class="home" data-options="dxContent : { targetPlaceholder: 'content' } ">
-        <div data-bind="dxList: { dataSource: emisije, pullRefreshEnabled: true, autoPagingEnabled: false }">
+        <div data-bind="dxList: { dataSource: emisije, pullRefreshEnabled: true, autoPagingEnabled: true }">
             <div data-options="dxTemplate: { name: 'item' }" class="emisija" data-bind="template: { name: 'program' }"></div>
         </div>
     </div>

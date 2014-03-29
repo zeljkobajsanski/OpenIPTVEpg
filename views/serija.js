@@ -1,11 +1,13 @@
 ﻿Epg.serija = function(params) {
-
+    var timestamp;
     return {
         program: new DevExpress.data.DataSource({
-            load: function() {
+            load: function(opts) {
                 var d = $.Deferred();
-                Epg.data.ucitajProgram(Epg.Constants.TipoviPrograma.SERIJA).done(function (result) {
-                    d.resolve(result);
+                if (opts.refresh) timestamp = undefined;
+                Epg.data.ucitajProgram(Epg.Constants.TipoviPrograma.SERIJA, opts, timestamp).done(function (result) {
+                    timestamp = result.timestamp;
+                    d.resolve(result.program);
                 });
                 return d.promise();
             }

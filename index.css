@@ -57,6 +57,7 @@ body {
 
 .kanal .lista {
     margin-top: 24px;
+    height: 80%;
 }
 
 .kanal .naziv-kanala {

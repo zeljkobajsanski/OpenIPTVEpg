@@ -6,9 +6,10 @@
         emisije: new DevExpress.data.DataSource({
             load: function (opts) {
                 var d = $.Deferred();
-                window.Epg.data.ucitajProgram(timestamp).done(function(result) {
-                    //timestamp = result.timestamp;
-                    d.resolve(result);
+                if (opts.refresh) timestamp = undefined;
+                window.Epg.data.ucitajProgram(null, opts, timestamp).done(function (result) {
+                    timestamp = result.timestamp;
+                    d.resolve(result.program);
                 });
                 return d.promise();
             }
