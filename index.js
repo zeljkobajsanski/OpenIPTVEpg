@@ -4,10 +4,10 @@
     var Epg = window.Epg = {
         Constants: {
             TipoviPrograma: {
-                FILM: 1,
-                SERIJA: 2,
-                SPORT: 3,
-                OSTALO: 4
+                FILM: "film",
+                SERIJA: "serija",
+                SPORT: "sport",
+                OSTALO: "ostalo"
             }
         }
     };
@@ -22,7 +22,7 @@
             navigationType: "navbar",
             navigation: [
                 {
-                    title: "Uživo",
+                    title: "Sve",
                     action: "#home",
                     icon: "clock"
                 },

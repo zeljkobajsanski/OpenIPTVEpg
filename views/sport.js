@@ -4,8 +4,8 @@
         program: new DevExpress.data.DataSource({
             load: function() {
                 var d = $.Deferred();
-                Epg.data.ucitajTipPrograma(Epg.Constants.TipoviPrograma.SPORT).done(function(result) {
-                    d.resolve(result.program);
+                Epg.data.ucitajProgram(Epg.Constants.TipoviPrograma.SPORT).done(function (result) {
+                    d.resolve(result);
                 });
                 return d.promise();
             }

@@ -7,8 +7,8 @@
             load: function (opts) {
                 var d = $.Deferred();
                 window.Epg.data.ucitajProgram(timestamp).done(function(result) {
-                    timestamp = result.timestamp;
-                    d.resolve(result.program);
+                    //timestamp = result.timestamp;
+                    d.resolve(result);
                 });
                 return d.promise();
             }

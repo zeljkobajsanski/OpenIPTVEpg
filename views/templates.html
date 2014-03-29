@@ -1,9 +1,9 @@
 ﻿<script type="text/html" id="program" >
-    <div data-bind="css: { inactive: !aktivna }, dxAction: '#kanal/{id}'" class="program-list-item">
-        <img data-bind="attr: { src: 'img/' + logo }" class="logo" />
-        <img data-bind="attr: { src: 'img/' + tip + '.png' }" class="tip-emisije" />
+    <div data-bind="css: { inactive: !aktivna }, dxAction: '#kanal/{kanalId}'" class="program-list-item">
+        <img data-bind="attr: { src: 'img/logo/' + logo }" class="logo" />
+        <img data-bind="attr: { src: 'img/' + tip + '.png' }, visible: tip !== 'ostalo'" class="tip-emisije" />
         <span data-bind="text: vreme" class="vreme"></span>
-        <span data-bind="text: kanal" class="kanal"></span>
-        <p data-bind="text: emisija" class="naziv-emisije"></p>
+        <span data-bind="text: emisija" class="naziv-emisije"></span>
+        <div data-bind="text: kanal" class="kanal"></div>
     </div>
 </script>

@@ -1,11 +1,8 @@
 ﻿Epg.data = {
-    ucitajProgram: function(timestamp) {
-        return $.getJSON('data/uzivo.json', { timestamp: timestamp });
+    ucitajProgram: function(tip) {
+        return $.getJSON('http://openiptv.azurewebsites.net/Json/VratiEmisije', { tip: tip });
     },
     ucitajKanal: function(id) {
-        return $.getJSON('data/kanal.json', {id: id});
+        return $.getJSON('http://openiptv.azurewebsites.net/Json/VratiProgram/' + id);
     },
-    ucitajTipPrograma: function(tip) {
-        return $.getJSON('data/uzivo.json', { tip: tip });
-    }
 };

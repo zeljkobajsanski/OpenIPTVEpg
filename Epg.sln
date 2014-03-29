@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "trunk", ".", "{1F606263-9B93-4693-8A85-1E22417CA519}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Mobile", ".", "{546561CF-112A-4E16-A02D-2641FA7EA4E0}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/trunk"
-		Debug.AspNetCompiler.PhysicalPath = "E:\Projekti\OpenIPTVEpg\Mobile\trunk\"
+		Debug.AspNetCompiler.PhysicalPath = "..\Mobile\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\trunk\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/trunk"
-		Release.AspNetCompiler.PhysicalPath = "E:\Projekti\OpenIPTVEpg\Mobile\trunk\"
+		Release.AspNetCompiler.PhysicalPath = "..\Mobile\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\trunk\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
@@ -26,8 +26,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1F606263-9B93-4693-8A85-1E22417CA519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F606263-9B93-4693-8A85-1E22417CA519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546561CF-112A-4E16-A02D-2641FA7EA4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546561CF-112A-4E16-A02D-2641FA7EA4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
